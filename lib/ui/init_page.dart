@@ -11,7 +11,7 @@ class InitPage extends StatefulWidget {
 class InitPageState extends State<InitPage> {
   @override
   Widget build(BuildContext context) {
-    final appbar = HWAppbar(title: "Init Page");
+    final appbar = HWAppbar(title: "Child Protect",);
     return Scaffold(
       appBar: appbar.buildAppbar(context),
     );
